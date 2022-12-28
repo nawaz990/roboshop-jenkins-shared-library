@@ -1,5 +1,5 @@
 def call() {
-  node {
+  nodejs {
 
     stage("Code Quality") {
       steps {

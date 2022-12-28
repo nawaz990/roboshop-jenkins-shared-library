@@ -1,5 +1,5 @@
 def call() {
-  node {
+  python {
 
     stage('Code Quality') {
       steps {
