@@ -1,8 +1,8 @@
 def call() {
   pipeline {
     agent any
-    stages {
 
+    stages {
 
       stage('Code Quality') {
         steps {
