@@ -1,8 +1,6 @@
 def call() {
-  pipeline {
-    agent any
+  node {
 
-    stages {
 
       stage('Code Quality') {
         steps {
@@ -21,6 +19,6 @@ def call() {
           echo 'Publish A Release'
         }
       }
-    }
+
   }
 }
