@@ -1,6 +1,8 @@
 def call() {
   node {
 
+    common.checkout()
+
       stage('Code Quality') {
           echo "Code Quality"
 
