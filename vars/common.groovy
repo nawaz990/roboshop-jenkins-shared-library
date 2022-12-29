@@ -24,12 +24,6 @@ def codeQuality() {
   }
 }
 
-def testCases() {
-  stage('Test Cases') {
-    echo 'Test Cases'
-  }
-}
-
 def release() {
   stage('Publish A Release') {
     echo 'Publish A Release'

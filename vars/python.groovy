@@ -3,7 +3,6 @@ def call() {
 
     common.checkout()
     common.codeQuality()
-    common.testcases()
     common.release()
   }
 }

@@ -4,8 +4,6 @@ def call() {
     common.checkout()
     common.java()
     common.codeQuality()
-    common.testcases()
     common.release()
-
   }
 }
